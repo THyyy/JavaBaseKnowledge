@@ -4,6 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
+ * 代理拦截控制
  * @author THY
  * @date 2019/3/5
  */
