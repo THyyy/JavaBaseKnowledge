@@ -1,6 +1,7 @@
 package designmode.producerandconsumer;
 
 /**
+ * 资源类用于生产者和消费者
  * @author THY
  * @date 2019/3/12
  */

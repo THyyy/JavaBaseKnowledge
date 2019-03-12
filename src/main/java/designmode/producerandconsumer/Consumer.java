@@ -3,6 +3,7 @@ package designmode.producerandconsumer;
 import java.util.concurrent.BlockingQueue;
 
 /**
+ * 消费者类
  * @author THY
  * @date 2019/3/12
  */
