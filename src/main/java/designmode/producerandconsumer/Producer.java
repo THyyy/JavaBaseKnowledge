@@ -1,10 +1,10 @@
 package designmode.producerandconsumer;
 
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
+ * 生产者类
  * @author THY
  * @date 2019/3/12
  */
