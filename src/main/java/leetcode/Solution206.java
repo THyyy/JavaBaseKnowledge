@@ -19,12 +19,12 @@ package leetcode;
  * }
  */
 public class Solution206 {
-    public ListNode reverseList(ListNode head) {
+    public ListNode206 reverseList(ListNode206 head) {
         if (head == null) {
             return head;
         }
-        ListNode result = null;
-        ListNode temp = null;
+        ListNode206 result = null;
+        ListNode206 temp = null;
         while(head != null) {
             temp = head.next;
             head.next = result;
@@ -36,8 +36,8 @@ public class Solution206 {
 
 }
 
-// class ListNode {
-//      int val;
-//      ListNode next;
-//       ListNode(int x) { val = x; }
-//   }
+ class ListNode206 {
+      int val;
+      ListNode206 next;
+       ListNode206(int x) { val = x; }
+   }

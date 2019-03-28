@@ -1,6 +1,5 @@
 package leetcode;
 
-import java.util.List;
 
 /**
  * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
@@ -13,15 +12,15 @@ import java.util.List;
  * @date 2019/3/2
  */
 public class Solution24 {
-    public ListNode swapPairs(ListNode head) {
+    public ListNode24 swapPairs(ListNode24 head) {
 
         if(head == null) {
             return null;
         }
-        ListNode temp;
-        ListNode pos = head;
-        ListNode dummy = new ListNode(0);
-        ListNode pre = dummy;
+        ListNode24 temp;
+        ListNode24 pos = head;
+        ListNode24 dummy = new ListNode24(0);
+        ListNode24 pre = dummy;
         dummy.next = head;
         while(pos != null && pos.next != null) {
             temp = pos.next.next;
@@ -35,11 +34,11 @@ public class Solution24 {
     }
 }
 
-class ListNode {
+class ListNode24 {
     int val;
-    ListNode next;
+    ListNode24 next;
 
-    ListNode(int x) {
+    ListNode24(int x) {
         val = x;
     }
 }
